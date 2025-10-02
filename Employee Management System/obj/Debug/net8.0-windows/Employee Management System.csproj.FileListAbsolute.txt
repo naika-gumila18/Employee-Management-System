@@ -15,3 +15,17 @@ C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management Sys
 C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.genruntimeconfig.cache
 C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\ref\Employee Management System.dll
 C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee_Management_System.Properties.Resources.resources
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.sourcelink.json
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee_Management_System.frmMasterData.resources
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee_Management_System.frmAddEmployee.resources
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\System.Data.OleDb.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\System.Diagnostics.PerformanceCounter.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.OleDb.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee Management System.csproj.AssemblyReference.cache
+C:\Users\CCITGuest\Documents\Gumila-IT2_IPT\SO2\Activity\Employee Management System\Employee Management System\obj\Debug\net8.0-windows\Employee.861BF793.Up2Date
