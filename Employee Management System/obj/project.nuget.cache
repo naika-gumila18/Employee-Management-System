@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aVZPbWZCfD8=",
+  "dgSpecHash": "KEPcB7LRkV0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CCITGuest\\Documents\\Gumila-IT2_IPT\\SO2\\Activity\\Employee Management System\\Employee Management System\\Employee Management System.csproj",
+  "projectFilePath": "C:\\Users\\CCITGuest\\Documents\\Gumila-IT2_IPT\\SO2\\Activity\\ems\\Employee Management System\\Employee Management System\\Employee Management System.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CCITGuest\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
     "C:\\Users\\CCITGuest\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
