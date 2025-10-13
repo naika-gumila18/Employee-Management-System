@@ -22,7 +22,7 @@ namespace Employee_Management_System
             string select_tblrequestorlist = "select * from tblEmployeeData ORDER BY EmployeeNumber DESC";
             CRUD.CRUD.RETRIEVEDTG(dtgMasterData, select_tblrequestorlist);
         }
-        
+
         private void dtgMasterData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -31,43 +31,49 @@ namespace Employee_Management_System
         private void dtgMasterData_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             lblTransactionNo.Text = dtgMasterData.Rows[e.RowIndex].Cells["ID"].Value.ToString();
+            selectedTransaction = lblTransactionNo.Text;
+            EmployeeNumber = dtgMasterData.Rows[e.RowIndex].Cells["EmployeeNumber"].Value.ToString();
+            RequestorName = dtgMasterData.Rows[e.RowIndex].Cells["RequestorName"].Value.ToString();
+            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
+            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
+            LocalNumber = dtgMasterData.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
+            Section = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
         }
 
-       
+
         public static string EmployeeNumber;
         public static string RequestorName;
         public static string RequestorEmail;
         public static string Section;
         public static string LocalNumber;
+        public static string selectedTransaction;
 
         private void btnEditData_Click(object sender, EventArgs e)
         {
-               EmployeeNumber = dtgMasterData.CurrentRow.Cells["EmployeeNumber"].Value.ToString();
-               RequestorName = dtgMasterData.CurrentRow.Cells["RequestorName"].Value.ToString();
-                RequestorEmail = dtgMasterData.CurrentRow.Cells["RequestorEmail"].Value.ToString();
-                Section = dtgMasterData.CurrentRow.Cells["Section"].Value.ToString();
-                LocalNumber = dtgMasterData.CurrentRow.Cells["LocalNumber"].Value.ToString();
+            EmployeeNumber = dtgMasterData.CurrentRow.Cells["EmployeeNumber"].Value.ToString();
+            RequestorName = dtgMasterData.CurrentRow.Cells["RequestorName"].Value.ToString();
+            RequestorEmail = dtgMasterData.CurrentRow.Cells["RequestorEmail"].Value.ToString();
+            Section = dtgMasterData.CurrentRow.Cells["Section"].Value.ToString();
+            LocalNumber = dtgMasterData.CurrentRow.Cells["LocalNumber"].Value.ToString();
+            selectedTransaction = dtgMasterData.CurrentRow.Cells["ID"].Value.ToString();
 
 
             frmAddEmployee frmAddEmployee = new frmAddEmployee();
-                frmAddEmployee.ShowDialog();
+            frmAddEmployee.ShowDialog();
+        }
 
-            if (dtg_addrequestor == true)
-            {
-                DialogResult result = MessageBox.Show("This account '" + txtRequestorName.Text + "' already exists.", "Not found.", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
-                txtRequestorName.Text = "";
-                txtEmailAddress.Text = "";
-                txtLocalNumber.Text = "";
-
-                if (result == DialogResult.Yes)
-                {
-                    string update = "update [tblEmployeeData] set [RequestorName] = '" + txtRequestorName.Text + "', [RequestorEmail] = '" + txtEmailAddress.Text + "', [Section] = '" + cmbSection.Text + "', [LocalNumber] = '" + txtLocalNumber.Text + "' where [EmployeeNumber] = '" + txtEmpID.Text + "'";
-                    CRUD.CRUD.CUD(update);
-
-                }
-
-            }
-
+        private void dtgMasterData_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            lblTransactionNo.Text = dtgMasterData.Rows[e.RowIndex].Cells["ID"].Value.ToString();
+            selectedTransaction = lblTransactionNo.Text;
+            EmployeeNumber = dtgMasterData.Rows[e.RowIndex].Cells["EmployeeNumber"].Value.ToString();
+            RequestorName = dtgMasterData.Rows[e.RowIndex].Cells["RequestorName"].Value.ToString();
+            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
+            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
+            LocalNumber = dtgMasterData.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
+            Section = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
+        }
     }
 }
+
 

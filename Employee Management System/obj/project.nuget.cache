@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KEPcB7LRkV0=",
+  "dgSpecHash": "/KK8HiFHwtY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CCITGuest\\Documents\\Gumila-IT2_IPT\\SO2\\Activity\\ems\\Employee Management System\\Employee Management System\\Employee Management System.csproj",
+  "projectFilePath": "C:\\Users\\Epee\\OneDrive\\Desktop\\ems\\Employee-Management-System\\Employee Management System\\Employee Management System.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
-    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
-    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.8\\system.diagnostics.eventlog.9.0.8.nupkg.sha512",
-    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.8\\system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
-    "C:\\Users\\CCITGuest\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.8\\system.security.cryptography.protecteddata.9.0.8.nupkg.sha512"
+    "C:\\Users\\Epee\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.8\\system.configuration.configurationmanager.9.0.8.nupkg.sha512",
+    "C:\\Users\\Epee\\.nuget\\packages\\system.data.oledb\\9.0.8\\system.data.oledb.9.0.8.nupkg.sha512",
+    "C:\\Users\\Epee\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.8\\system.diagnostics.eventlog.9.0.8.nupkg.sha512",
+    "C:\\Users\\Epee\\.nuget\\packages\\system.diagnostics.performancecounter\\9.0.8\\system.diagnostics.performancecounter.9.0.8.nupkg.sha512",
+    "C:\\Users\\Epee\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.8\\system.security.cryptography.protecteddata.9.0.8.nupkg.sha512"
   ],
   "logs": []
 }
