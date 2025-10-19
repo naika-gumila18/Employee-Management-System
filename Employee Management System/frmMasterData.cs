@@ -35,7 +35,7 @@ namespace Employee_Management_System
             EmployeeNumber = dtgMasterData.Rows[e.RowIndex].Cells["EmployeeNumber"].Value.ToString();
             RequestorName = dtgMasterData.Rows[e.RowIndex].Cells["RequestorName"].Value.ToString();
             RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
-            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
+            
             LocalNumber = dtgMasterData.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
             Section = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
         }
@@ -60,6 +60,8 @@ namespace Employee_Management_System
 
             frmAddEmployee frmAddEmployee = new frmAddEmployee();
             frmAddEmployee.ShowDialog();
+            string select_tblrequestorlist = "select * from tblEmployeeData ORDER BY EmployeeNumber DESC";
+            CRUD.CRUD.RETRIEVEDTG(dtgMasterData, select_tblrequestorlist);
         }
 
         private void dtgMasterData_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -68,7 +70,7 @@ namespace Employee_Management_System
             selectedTransaction = lblTransactionNo.Text;
             EmployeeNumber = dtgMasterData.Rows[e.RowIndex].Cells["EmployeeNumber"].Value.ToString();
             RequestorName = dtgMasterData.Rows[e.RowIndex].Cells["RequestorName"].Value.ToString();
-            RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
+            //RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["RequestorEmail"].Value.ToString();
             RequestorEmail = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();
             LocalNumber = dtgMasterData.Rows[e.RowIndex].Cells["LocalNumber"].Value.ToString();
             Section = dtgMasterData.Rows[e.RowIndex].Cells["Section"].Value.ToString();

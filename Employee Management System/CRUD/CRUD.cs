@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
 using System.Data.OleDb;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Employee_Management_System.CRUD
 {
@@ -16,7 +19,7 @@ namespace Employee_Management_System.CRUD
         public static DataTable dt = new DataTable();
         public static DataSet ds = new DataSet();
         public static int resultSQL;
-        public static Image getIMG = null;
+        public static Image getIMG;
 
 
 
